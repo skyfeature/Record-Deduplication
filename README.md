@@ -45,16 +45,16 @@ Source: https://thechive.com/2017/01/24/12-surprisingly-cool-origins-of-common-n
   
 Outpt is stored into file_output.csv  
 Sort the content of file_output.csv based upon column Cluster ID.  
-Description of columns of file_output.csv:
-	Cluster ID: Id of a cluster of duplicate records
-	confidence_score: confidence of the element being in that cluster.
-	Id: TO uniqually identify each row of input file.
-	ln: Same as input file (last name)
-	dob: Same as input file (date of birth)
-	gn: Same as input file (gender)
-	fn: Same as input file (first name)
-	canonical_ln: Combined ln 
-	canonical_dob: Combined dob
-	canonical_Id: Combined Id
-	canonical_fn: Combined fn
-	canonical_gn: Combined gn
+Description of columns of file_output.csv:  
+	Cluster ID: Id of a cluster of duplicate records  
+	confidence_score: confidence of the element being in that cluster.  
+	Id: TO uniqually identify each row of input file.  
+	ln: Same as input file (last name)  
+	dob: Same as input file (date of birth)  
+	gn: Same as input file (gender)  
+	fn: Same as input file (first name)  
+	canonical_ln: Combined ln   
+	canonical_dob: Combined dob  
+	canonical_Id: Combined Id  
+	canonical_fn: Combined fn  
+	canonical_gn: Combined gn  
