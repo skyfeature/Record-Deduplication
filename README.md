@@ -1,6 +1,6 @@
 # [Dedupe](https://github.com/dedupeio/dedupe), a library that uses machine learning to perform de-duplication and entity resolution quickly on structured data.
 
-Install all prerequisite libraries:
+Install all prerequisite libraries:  
 I used python 2.7 
 ```bash
 pip install -r requirements.txt
@@ -38,13 +38,13 @@ Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 ```
 
-Note: usually Bill is nickname for William. Similarly Bob is nickname for Robert.
-Jack from John, Chuck from Charles, Peggy from Margret, Ted from Edword, Harry or Hank from Henry, 
-Jim from James, Sally from Sarah, Dick for Richard, 
-Source: https://thechive.com/2017/01/24/12-surprisingly-cool-origins-of-common-nicknames/
-
-Outpt is stored into file_output.csv
-Sort the content of file_output.csv based upon column Cluster ID.
+Note: usually Bill is nickname for William. Similarly Bob is nickname for Robert.  
+Jack from John, Chuck from Charles, Peggy from Margret, Ted from Edword, Harry or Hank from Henry,   
+Jim from James, Sally from Sarah, Dick for Richard,   
+Source: https://thechive.com/2017/01/24/12-surprisingly-cool-origins-of-common-nicknames/  
+  
+Outpt is stored into file_output.csv  
+Sort the content of file_output.csv based upon column Cluster ID.  
 Description of columns of file_output.csv:
 	Cluster ID: Id of a cluster of duplicate records
 	confidence_score: confidence of the element being in that cluster.
